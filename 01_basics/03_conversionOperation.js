@@ -30,4 +30,40 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 //console.log(stringNumber); // 33 print 
 
-console.log(typeof stringNumber); //string print 
+
+//console.log(typeof stringNumber); //string print
+
+//*****************Operations*******************
+let value = 3
+let negvalue = -value
+
+//console.log(negValue); //""
+
+//console.log(2+2); // addition
+//console.log(2-2); // subtraction
+//console.log (2*2); // multiplication
+//console.log(2/3); //divide 
+//console.log(2%3); // modulus 
+
+//****addition of string*****
+
+let str1 = "hello"
+let str2 = "yation"
+
+let str3 = str1 + str2 
+//console.log(str3); //normal 
+
+console.log("1" + 2); //12 print
+console.log(1 + "2"); //12 print
+
+console.log("1" + 2 +2);
+
+
+
+
+
+
+
+
+
+
