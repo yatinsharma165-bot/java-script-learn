@@ -30,3 +30,25 @@ const myFunction = function() {
 
  console.log(typeof outsideTemp); // function print //undefined
 console.log(typeof myFunction); // function print //function**
+
+//https//262.ecma-international.org/5.1/#sec-11.9.3
+
+
+
+//***********************************/
+
+// stack memory => primitive data types store in stack memory and refrence data types store in heap memory.
+
+
+// heap memory => refrence data types store in heap memory and refrence data types store in stack memory.
+let myname = "yatin"; // stack memory
+let anotherName = myname; // stack memory.
+anotherName = "yatin"; // stack memory
+
+console.log(anotherName); // yatin print
+console.log(myname); // yatin print
+
+let userone = {
+    email: "yatin@example.com",
+    age: 22,
+}
