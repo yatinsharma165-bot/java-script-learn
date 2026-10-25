@@ -53,12 +53,23 @@ let str2 = "yation"
 let str3 = str1 + str2 
 //console.log(str3); //normal 
 
-console.log("1" + 2); //12 print
-console.log(1 + "2"); //12 print
+//console.log("1" + 2); //12 print
+//console.log(1 + "2"); //12 print
 
-console.log("1" + 2 +2);
+//console.log("1" + 2 +2);
+//console.log(1 + 2 * 5 % 3 ); // this is not good methood to write code .
 
+//console.log(+true); 
+//console.log(+""); // not good methood to write code .
 
+let gameCounter = 100 // pre fix operator.
+
+gameCounter++; // post fix operator.
+console.log(gameCounter); // 101 print 
+
+gameCounter = 100
+++gameCounter;
+console.log(gameCounter); // 101 print 
 
 
 
