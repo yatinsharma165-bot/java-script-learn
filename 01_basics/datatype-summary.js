@@ -52,3 +52,9 @@ let userone = {
     email: "yatin@example.com",
     age: 22,
 }
+
+let usertwo = userone; // refrence memory
+usertwo.email = "usertwo@example.com"; // modifies both userone and usertwo since they reference the same object in heap memory.
+
+console.log(userone.email); // usertwo@example.com
+console.log(usertwo.email); // usertwo@example.com
