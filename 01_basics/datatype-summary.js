@@ -29,3 +29,4 @@ const myFunction = function() {
  console.log(typeof bigNumber); // function print //undefined
 
  console.log(typeof outsideTemp); // function print //undefined
+console.log(typeof myFunction); // function print //function**
