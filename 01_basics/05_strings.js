@@ -25,3 +25,8 @@ const newStringOne = " yatin Sharma " // space not consider.
 console.log(newStringOne);
 console.log(newStringOne.trim()); // use of trim command #explore trimstart / trimand more mdn refrence.
 
+const url = "https;//zmate.in/zmate%10Zmate"
+
+console.log(url.replace('%20', '-')) //use of replace methood 
+
+console.log(url.includes('sundar'))
