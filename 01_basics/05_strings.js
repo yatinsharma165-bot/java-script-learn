@@ -12,5 +12,16 @@ console.log(gameName.__proto__);
 console.log(gameName.length);  //methood of string .
 console.log(gameName.toUpperCase());
 
-console.log(gameName.charAt(2)); //t print 
-console.log(gameName.indexOf(t)); // reverse 
+//console.log(gameName.charAt(2)); //t print 
+//console.log(gameName.indexOf(t)); // reverse.
+
+const anotherString = gameName.slice(-8,4)
+console.log(newString);
+
+const anotherString = gameName.slice(-6,5)
+console.log(anotherString);
+
+const newStringOne = " yatin Sharma " // space not consider.
+console.log(newStringOne);
+console.log(newStringOne.trim()); // use of trim command #explore trimstart / trimand more mdn refrence.
+
