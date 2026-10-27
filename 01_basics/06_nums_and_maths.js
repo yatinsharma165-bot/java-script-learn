@@ -24,11 +24,18 @@ const hundreds = 100000
 console.log(maths);
 //.abs , tan , pi etc .
 
-console.log(maths.abs(-4)); 
+//console.log(maths.abs(-4)); 
 
-console.log(math.round(4.6)); //round
+//console.log(math.round(4.6)); //round
 
-console.log(math.ceil(4.2)); //ceil
-console.log(math.floor(4.9)); //floor
+//console.log(math.ceil(4.2)); //ceil
+//console.log(math.floor(4.9)); //floor
+
+//console.log(math.min(4.8)); //min means lowest value 
+console.log(math.max(4,3,2,1,7,8)); // max maximum value
+
+console.log(math.random()*10); //0 or  1 b/w  decimal.
+
+
 
 
