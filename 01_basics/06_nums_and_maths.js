@@ -10,10 +10,16 @@ console.log(balance.toFixed(2)); //precigion value
 
 const otherNumber = 123.786
 
-console.log(otherNumber.toPrecision(4)); 
+//console.log(otherNumber.toPrecision(4)); 
 
 const hundreds = 100000
-console.log(hundreds.toLocaleString('en-in')) //indian english 
+//console.log(hundreds.toLocaleString('en-in')) //indian english 
+
+//min value 
+//max value 
+//and more .
+
+//***********maths++++++++++++*/
 
 
 
