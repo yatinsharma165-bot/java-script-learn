@@ -9,9 +9,15 @@
 let myDate = new Date()
 //console.log(myDate); //output .900Z not readable .
 
-console.log(myDate.toString()); //
-console.log(myDate.toDateString())
-console.log(myDate.toTimeString()) // and more explore
+//console.log(myDate.toString()); //
+//console.log(myDate.toDateString())
+//console.log(myDate.toTimeString()) // and more explore
+//imp date is a *object* 
+
+let mycreatedDate = new Date (2026,0,26)
+//console.log(myCreatedDate.toDateString());
+console.log(myCreatedDate.toLocaleString());
+
 
 
 
