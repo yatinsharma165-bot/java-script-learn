@@ -21,6 +21,14 @@ const hundreds = 100000
 
 //***********maths++++++++++++*/
 
+console.log(maths);
+//.abs , tan , pi etc .
 
+console.log(maths.abs(-4)); 
+
+console.log(math.round(4.6)); //round
+
+console.log(math.ceil(4.2)); //ceil
+console.log(math.floor(4.9)); //floor
 
 
