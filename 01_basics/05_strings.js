@@ -15,18 +15,20 @@ console.log(gameName.toUpperCase());
 //console.log(gameName.charAt(2)); //t print 
 //console.log(gameName.indexOf(t)); // reverse.
 
-const anotherString = gameName.slice(-8,4)
+//const anotherString = gameName.slice(-8,4)
 console.log(newString);
 
-const anotherString = gameName.slice(-6,5)
+//const anotherString = gameName.slice(-6,5)
 console.log(anotherString);
 
-const newStringOne = " yatin Sharma " // space not consider.
+//const newStringOne = " yatin Sharma " // space not consider.
 console.log(newStringOne);
 console.log(newStringOne.trim()); // use of trim command #explore trimstart / trimand more mdn refrence.
 
-const url = "https;//zmate.in/zmate%10Zmate"
+//const url = "https;//zmate.in/zmate%10Zmate"
 
 console.log(url.replace('%20', '-')) //use of replace methood 
 
 console.log(url.includes('sundar'))
+
+console.log(gameName.split('_'))
