@@ -34,7 +34,17 @@ console.log(maths);
 //console.log(math.min(4.8)); //min means lowest value 
 console.log(math.max(4,3,2,1,7,8)); // max maximum value
 
-console.log(math.random()*10); //0 or  1 b/w  decimal.
+console.log((math.random()*10)+1); //0 or  1 b/w  decimal.
+//to change decimal value .
+
+console.log(math.floor(math.random()*10)+1); //floor use
+
+const min = 10 
+const max = 20 
+
+console.log(math.floor (math.random() * (max-min + 1)) + min)
+ 
+
 
 
 
