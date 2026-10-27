@@ -18,6 +18,11 @@ let mycreatedDate = new Date (2026,0,26)
 //console.log(myCreatedDate.toDateString());
 console.log(myCreatedDate.toLocaleString());
 
+let myTimeStamps = Date.now()
+console.log(myDateStamp);
+console.log(mycreatedDate.getTime()); //dates booking real world example air bnb ticked book my show .
+
+
 
 
 
