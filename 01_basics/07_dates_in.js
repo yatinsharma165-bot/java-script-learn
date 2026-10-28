@@ -21,7 +21,17 @@ console.log(myCreatedDate.toLocaleString());
 let myTimeStamps = Date.now()
 console.log(myDateStamp);
 console.log(mycreatedDate.getTime()); //dates booking real world example air bnb ticked book my show .
+console.log(Math.floor(Date.now()/1000));
 
+let newDate = new Date()
+console.log(newDate.gatmonth() + 1);
+console.log(newDate.getDay());
+
+//${newDate.getDate()} and the time '
+
+newDate.toLocalleString('default',{
+    weekday: "long"
+})
 
 
 
