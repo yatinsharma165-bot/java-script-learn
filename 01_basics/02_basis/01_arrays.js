@@ -9,3 +9,19 @@ console.log(myArr[ 2]);
 //deep copy do not share same refrence.
 
 const myArr = [0,1,2,3,4,5,6] // Array(arrayLength)?
+const myfruits = ["apple","banana","mango","grapes"]
+const myArray2 = new Array(1,2,3,4,5,6,7,8,9)
+console.log(myArr.length);
+console.log(myfruits.length);
+console.log(myArray2.length);
+
+//Array mehods
+//push() add element at the end of array 
+//myArray.push(10)
+//myArray.push(11)
+console.log(myArray);
+//pop() remove element from the end of array
+//myArry.pop()
+console.log(myArray);
+//unshift() add element at the start of array
+//shift() remove element from the start of array
