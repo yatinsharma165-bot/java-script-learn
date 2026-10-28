@@ -24,4 +24,6 @@ console.log(myArray);
 //myArry.pop()
 console.log(myArray);
 //unshift() add element at the start of array
-//shift() remove element from the start of array
+//myArray.unshift(0)
+//shift() remove element from the start of array.
+//myArray.shift()
