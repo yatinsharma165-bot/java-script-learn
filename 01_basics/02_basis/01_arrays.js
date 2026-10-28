@@ -18,12 +18,27 @@ console.log(myArray2.length);
 //Array mehods
 //push() add element at the end of array 
 //myArray.push(10)
+
 //myArray.push(11)
 console.log(myArray);
 //pop() remove element from the end of array
 //myArry.pop()
+
 console.log(myArray);
+
 //unshift() add element at the start of array
 //myArray.unshift(0)
+
 //shift() remove element from the start of array.
 //myArray.shift()
+
+
+console.log(myArray.includes(5)); //true
+console.log(myArray.includes(10)); //false
+
+//console.log(myArray.indexOf(5)); //5
+console.log(myArray.indexOf(10)); //-1
+
+//console.log(myArr);
+//console.log(newArr);
+
