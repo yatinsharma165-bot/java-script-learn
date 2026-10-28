@@ -42,3 +42,17 @@ console.log(myArray.indexOf(10)); //-1
 //console.log(myArr);
 //console.log(newArr);
 
+//slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included) where start and end represent the index of items in that array. The original array will not be modified.
+//const myArray = [0,1,2,3,4,5,6,7,8,9]
+//const newArr = myArray.slice(2,5)
+//console.log(newArr); // [2,3,4]
+//console.log(myArray); // [0,1,2,3,4,5,6,7,8,9]
+
+//splice() method changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+//const myArray = [0,1,2,3,4,5,6,7,8,9]
+//const newArr = myArray.splice(2,5)
+//console.log(newArr); // [2,3,4]
+//console.log(myArray); // [0,1,7,8,9]
+
+
+
