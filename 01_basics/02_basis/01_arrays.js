@@ -90,6 +90,11 @@ const real_another_array = another_array.flat(infinity)
 console.log(real_another_array);
 
 
+console.log(Array.isArray("Yatin"))
+console.log(Array.from("Yatin"))
+console.log(Array.from({name: "yatin"})) //intresting empty array
+
+
 
 
 
