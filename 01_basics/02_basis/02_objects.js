@@ -6,7 +6,7 @@
 const jsuser = {
     name: "Hitesh",
     "FullName" : "yatin sharma",
-    mySym: "mykey",
+    mySym: "mykey",  //[mySum] use braces
     age: 19,
     location:"noida",
     email: "yatin@200gmail.com",
@@ -16,11 +16,17 @@ lastLoginDays: ["monday","saturday"]
 
 }
 
-console.log(jsuser.email)
-console.log(jsUser["email"]
+//console.log(jsuser.email)
+//console.log(jsUser["email"]
+console.log(jsUser["full name"])
+console.log(jsUser[mySym])
 
 
+jsUser.email = "yatin@gptgmail.com"
+object.freeze(jsUser)
+jsUser.email = "yatin@micrrosoft.com"
+console.log(jsUser);
 
-)
+
 
 
