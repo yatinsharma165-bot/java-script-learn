@@ -23,9 +23,16 @@ console.log(jsUser[mySym])
 
 
 jsUser.email = "yatin@gptgmail.com"
-object.freeze(jsUser)
+//object.freeze(jsUser)
 jsUser.email = "yatin@micrrosoft.com"
 console.log(jsUser);
+
+
+jsUser.greeting = function(){
+    console.log("hello js user");
+}
+
+console.log(jsUser.greeting());
 
 
 
