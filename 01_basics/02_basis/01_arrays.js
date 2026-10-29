@@ -68,12 +68,28 @@ console.log("A",myArray);
 //console.log("C",myArr);
 //console.log(myn2);
 
-const marvel_heros = ["thor","ironman","spiderman","saktiman"]
-const dc_heros = ["superman","flash","batman"]
+//const marvel_heros = ["thor","ironman","spiderman","saktiman"]
+//const dc_heros = ["superman","flash","batman"]
 
-marvel_heros.push(dc_heros)
+//marvel_heros.push(dc_heros)
 
-console.log(marvel_heros); //array as a data.
+//console.log(marvel_heros); //array as a data.
+//console.log(marvel_heros[3][1]); // not good way .
+
+const allHeros = marvel_heros.concat(dc_heros)
+console.log(allHeros); //add array 
+
+const all_new_heros = [...marvel_heros, ...dc_heros]
+
+// console.log(all_new_heros);
+
+const another_array = [1,2,3[4,5,6],5[3,4,5,6]]
+
+const real_another_array = another_array.flat(infinity)
+
+console.log(real_another_array);
+
+
 
 
 
