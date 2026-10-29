@@ -60,13 +60,22 @@ console.log(myArray.indexOf(10)); //-1
 //difference between slice and splice is slice does not modify the original array but splice modifies the original array.
 console.log("A",myArray);
 
-const myn1 = myArray.slice(1,3)
-console.log("B",myn1);
-console.log("b",myArray);
+//const myn1 = myArray.slice(1,3)
+//console.log("B",myn1);
+//console.log("b",myArray);
 
-const myn2 = myArray.splice(1,3)
-console.log("C",myArr);
-console.log(myn2);
+//const myn2 = myArray.splice(1,3)
+//console.log("C",myArr);
+//console.log(myn2);
+
+const marvel_heros = ["thor","ironman","spiderman","saktiman"]
+const dc_heros = ["superman","flash","batman"]
+
+marvel_heros.push(dc_heros)
+
+console.log(marvel_heros); //array as a data.
+
+
 
 
 
