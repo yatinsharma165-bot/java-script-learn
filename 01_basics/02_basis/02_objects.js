@@ -122,12 +122,12 @@ console.log(instructor); //yatin sharma
 
 //in the form of object we can use api data in the form of object and array both .
 
-[
-    {},
-    {},
+/*[
+  //  {},
+  //  {},
     {}
-]
-
+//]
+basic about json */
 
 
 
