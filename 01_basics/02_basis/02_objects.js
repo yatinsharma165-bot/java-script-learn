@@ -73,7 +73,28 @@ const obj3 = {...obj1, ...obj2}
 
 //same like arry print .
 
-const 
+
+const users = [
+{ 
+    id: 1,
+    email:"yatin@gmail.com"
+},
+{
+    id:1,
+    email:"yatin@2006gmail.com"
+},
+
+]
+
+users[1].email 
+console.log(zmateuser);
+
+console.log(object.keys(zmateusers));
+//datatype array print.
+console.log(object.values(zmateusers));
+//datatype values print.
+console.log(object.entries(zmateusers));
+//datatype entries print.
 
 
 
