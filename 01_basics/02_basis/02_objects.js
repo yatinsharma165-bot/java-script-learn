@@ -96,6 +96,14 @@ console.log(object.values(zmateusers));
 console.log(object.entries(zmateusers));
 //datatype entries print.
 
+console.log(zmateuser.hasOwnProperty('isLoggedin'));
+//methoods.
+//isPrototypeof
+//tostring
+//definesetter.
+//propertyisEmumerable.
+
+
 
 
 
