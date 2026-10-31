@@ -87,21 +87,49 @@ const users = [
 ]
 
 users[1].email 
-console.log(zmateuser);
+//console.log(zmateuser);
 
-console.log(object.keys(zmateusers));
+//console.log(object.keys(zmateusers));
 //datatype array print.
-console.log(object.values(zmateusers));
+//console.log(object.values(zmateusers));
 //datatype values print.
-console.log(object.entries(zmateusers));
+//console.log(object.entries(zmateusers));
 //datatype entries print.
 
-console.log(zmateuser.hasOwnProperty('isLoggedin'));
+//console.log(zmateuser.hasOwnProperty('isLoggedin'));
 //methoods.
 //isPrototypeof
 //tostring
 //definesetter.
 //propertyisEmumerable.
+
+const course = {
+    courseName: "js in hindi",
+    price: 999,
+    courseInstructor: "yatin sharma"
+}
+//course.courseInstructor 
+const {courseInstructor: instructor} = course
+
+//console.log(course.courseInstructor); //yatin sharma 
+console.log(instructor); //yatin sharma
+
+//****concept of api **** 
+//{
+//"name": "yatin",
+//"email": "yatin@gmail.com"}
+//}
+
+//in the form of object we can use api data in the form of object and array both .
+
+[
+    {},
+    {},
+    {}
+]
+
+
+
 
 
 
